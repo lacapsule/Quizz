@@ -12,7 +12,7 @@ body{
 
 .liste{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 100%;
@@ -25,11 +25,12 @@ body{
 .hardware,
 .mao,
 .devWeb,
-.greenIT{
-    font-size: 2.4rem;
+.greenIT,
+.numDiv{
+    font-size: 1.5rem;
     font-family: 'Poppins';
     padding: 2rem 0;
-    width: 50%;
+    width: 30%;
     text-align: center;
     margin-bottom: 1rem;
     text-decoration: none;
@@ -42,7 +43,8 @@ body{
 .hardware:hover,
 .mao:hover,
 .devWeb:hover,
-.greenIT:hover{
+.greenIT:hover,
+.numDiv:hover{
     background: var(--secondaire);
     filter: drop-shadow(0 0 20px var(--secondaire)) drop-shadow(0 0 40px var(--secondaire)) drop-shadow(0 0 60px var(--secondaire));
 
